@@ -21,6 +21,7 @@ export default class HomePage extends Component {
         const {user,btcPrice} = this.state
         return (
             <div>
+                
                 <h1>HomePage</h1>
                 <h4>Hello {user ? user.name : ''}</h4>
                 <p>Coins: {user ? user.coins : ''}</p>
